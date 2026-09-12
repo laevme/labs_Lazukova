@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ева Лазукова — фронтенд-разработчик</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header__inner">
+            <a href="#" class="logo">
+                <span class="logo__mark">E</span>
+                <span class="logo__text">Ева Лазукова</span>
+            </a>
+            <nav class="nav">
+                <a href="#about">Обо мне</a>
+                <a href="#skills">Навыки</a>
+                <a href="#projects">Проекты</a>
+                <a href="#contacts">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero__inner">
+
+                <div class="hero__text">
+                    <p class="hero__eyebrow">Frontend · студентка · Екатеринбург</p>
+                    <h1 class="hero__name">
+                        Привет, я&nbsp;<em>Ева</em>.<br>
+                        Верстаю сайты<br>
+                        и учусь писать код.
+                    </h1>
+                    <p class="hero__lead">
+                        Три года назад открыла для себя веб-разработку —
+                        и с тех пор не выпускаю из рук редактор. Люблю
+                        аккуратные интерфейсы, тёплую типографику
+                        и понятный код.
+                    </p>
+
+                    <div class="hero__actions">
+                        <a href="#projects" class="btn">Смотреть проекты</a>
+                        <a href="#contacts" class="btn btn--ghost">Написать мне</a>
+                    </div>
+
+                    <ul class="hero__meta">
+                        <li><span>9+</span> месяцев практики</li>
+                        <li><span>6</span> учебных проектов</li>
+                        <li><span>4</span> курс университета</li>
+                    </ul>
+                </div>
+
+                <aside class="hero__aside">
+                    <div class="portrait">
+                        <div class="portrait__frame">
+                            <span class="portrait__initials">ЕЛ</span>
+                        </div>
+                </aside>
+
+            </div>
+            <div class="hero__rule"></div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section__head">
+                    <span class="section__num">01</span>
+                    <h2 class="section__title">Обо мне</h2>
+                    <span class="section__line"></span>
+                </div>
+
+                <div class="about">
+                    <div class="about__main">
+                        <p class="about__dropcap">
+                            Мне 19 лет, учусь на четвертом курсе. Начала
+                            интересоваться веб-разработкой 3 года назад:
+                            сначала просто разбиралась, как устроены сайты,
+                            потом захотелось сделать что-то своё.
+                        </p>
+                        <p>
+                            Сейчас тренируюсь верстать макеты, изучаю
+                            основы JavaScript и разбираюсь с инструментами
+                            вроде Photoshop. В свободное время читаю,
+                            слежу за трендами и изучаю английский язык.
+                        </p>
+                    </div>
+
+                    <aside class="about__side">
+                        <h3 class="about__side-title">Коротко</h3>
+                        <dl class="facts">
+                            <div class="facts__row">
+                                <dt>Город</dt>
+                                <dd>Екатеринбург</dd>
+                            </div>
+                            <div class="facts__row">
+                                <dt>Учусь</dt>
+                                <dd>4 курс, ИС</dd>
+                            </div>
+                            <div class="facts__row">
+                                <dt>Люблю</dt>
+                                <dd>веб-разработку</dd>
+                            </div>
+                        </dl>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section section--tinted">
+            <div class="container">
+                <div class="section__head">
+                    <span class="section__num">02</span>
+                    <h2 class="section__title">Что я умею</h2>
+                    <span class="section__line"></span>
+                </div>
+
+                <ul class="skills" id="skillsList">
+                    <li class="skills__item skills__item--wide">
+                        <span class="skills__index">01</span>
+                        <div class="skills__body">
+                            <h3>HTML</h3>
+                            <p>Семантическая разметка, формы, базовая доступность. Понимаю, зачем нужны правильные теги.</p>
+                        </div>
+                    </li>
+                    <li class="skills__item">
+                        <span class="skills__index">02</span>
+                        <div class="skills__body">
+                            <h3>CSS</h3>
+                            <p>Flexbox, Grid, адаптивная вёрстка, переменные, простые анимации.</p>
+                        </div>
+                    </li>
+                    <li class="skills__item">
+                        <span class="skills__index">03</span>
+                        <div class="skills__body">
+                            <h3>JavaScript</h3>
+                            <p>Основы синтаксиса, работа с DOM, события, простые скрипты.</p>
+                        </div>
+                    </li>
+                    <li class="skills__item">
+                        <span class="skills__index">04</span>
+                        <div class="skills__body">
+                            <h3>Git</h3>
+                            <p>Ветки, работа с GitHub, базовое понимание flow.</p>
+                        </div>
+                    </li>
+                    <li class="skills__item">
+                        <span class="skills__index">05</span>
+                        <div class="skills__body">
+                            <h3>Figma</h3>
+                            <p>Разбираю макеты, работаю со слоями и компонентами.</p>
+                        </div>
+                    </li>
+                    <li class="skills__item skills__item--hidden">
+                        <span class="skills__index">06</span>
+                        <div class="skills__body">
+                            <h3>Английский</h3>
+                            <p>Читаю документацию, смотрю доклады без субтитров.</p>
+                        </div>
+                    </li>
+                    <li class="skills__item skills__item--hidden">
+                        <span class="skills__index">07</span>
+                        <div class="skills__body">
+                            <h3>Терпение</h3>
+                            <p>Умею сидеть над одной строкой, пока она не заработает как надо.</p>
+                        </div>
+                    </li>
+                </ul>
+
+                <button class="btn btn--ghost btn--center" id="toggleSkills">
+                    Показать ещё
+                </button>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section__head">
+                    <span class="section__num">03</span>
+                    <h2 class="section__title">Проекты</h2>
+                    <span class="section__line"></span>
+                </div>
+
+                <ul class="projects">
+                    <li class="project">
+                        <div class="project__num">01</div>
+                        <div class="project__content">
+                            <span class="project__tag">HTML · CSS</span>
+                            <h3>Сайт кофейни</h3>
+                            <p>Многостраничный с меню, галереей, блогом и контактами. Первый опыт.</p>
+                        </div>
+                    </li>
+                    <li class="project">
+                        <div class="project__num">02</div>
+                        <div class="project__content">
+                            <span class="project__tag">HTML · CSS</span>
+                            <h3>Блог о книгах</h3>
+                            <p>Три страницы: главная, статья, обо мне.</p>
+                        </div>
+                    </li>
+                    <li class="project">
+                        <div class="project__num">03</div>
+                        <div class="project__content">
+                            <span class="project__tag">JavaScript</span>
+                            <h3>Список задач, чек-листы</h3>
+                            <p>Простой to-do: добавление, удаление, отметка выполненных, дизайн.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contacts" class="section section--dark">
+            <div class="container">
+                <div class="section__head section__head--light">
+                    <span class="section__num">04</span>
+                    <h2 class="section__title">Контакты</h2>
+                    <span class="section__line"></span>
+                </div>
+
+                <p class="contacts__lead">
+                    Напишите мне — буду рада пообщаться или обсудить
+                    что-то по учёбе.
+                </p>
+
+                <ul class="contacts">
+                    <li>
+                        <span class="contacts__label">Email</span>
+                        <a href="mailto:anna@example.com">evala@mail.com</a>
+                    </li>
+                    <li>
+                        <span class="contacts__label">Telegram</span>
+                        <a href="https://t.me/">@evaa_dev</a>
+                    </li>
+                    <li>
+                        <span class="contacts__label">GitHub</span>
+                        <a href="https://github.com/">github.com/laevme</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__inner">
+            <p>© <span id="year">2026</span> Ева Лазукова</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
